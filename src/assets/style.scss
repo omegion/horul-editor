@@ -1,0 +1,97 @@
+.codex-editor .icon {
+    height: unset;
+    width: unset;
+}
+
+.codex-editor .ce-settings,
+.codex-editor .ce-inline-toolbar {
+    border: 1px solid #dee2e6;
+    padding: 0.5rem;
+    background-color: white;
+    -webkit-box-shadow: 0 0.1875rem 0.375rem rgba(33, 37, 41, 0.1);
+    box-shadow: 0 0.1875rem 0.375rem rgba(33, 37, 41, 0.1);
+    border-radius: 0.5rem;
+}
+
+.codex-editor .ce-settings:before,
+.codex-editor .ce-inline-toolbar:before {
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+.codex-editor .ce-settings__default-zone:not(:empty) {
+    display: flex;
+}
+
+.codex-editor .cdx-settings-button:hover,
+.codex-editor .ce-settings__button:hover {
+    border-radius: 0.5rem;
+
+}
+
+.codex-editor .ce-toolbar__content .ce-toolbar__plus .icon {
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.codex-editor .ce-toolbar__content .ce-toolbar__plus {
+    left: -3em;
+}
+
+.codex-editor .ce-toolbox__tooltip {
+    padding: .8em 1em;
+    border-radius: 20em;
+    background: #363636;
+    color: whitesmoke;
+    -webkit-box-shadow: 0 0.1875rem 0.375rem rgba(33, 37, 41, 0.1);
+    box-shadow: 0 0.1875rem 0.375rem rgba(33, 37, 41, 0.1);
+    font-size: 14px;
+}
+
+.codex-editor .ce-toolbox__tooltip:before {
+    background: #363636;
+}
+
+.codex-editor .ce-toolbox__tooltip .ce-toolbox__tooltip-shortcut {
+    color: inherit;
+}
+
+.codex-editor h1,
+.codex-editor h2,
+.codex-editor h3,
+.codex-editor h4,
+.codex-editor h5,
+.codex-editor h6 {
+    color: #363636;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.codex-editor h1 {
+    font-size: 3rem;
+}
+
+.codex-editor h2 {
+    font-size: 2.5rem;
+}
+
+.codex-editor h3 {
+    font-size: 2rem;
+}
+
+.codex-editor h4 {
+    font-size: 1.5rem;
+}
+
+.codex-editor h5 {
+    font-size: 1.25rem;
+}
+
+.codex-editor h6 {
+    font-size: 1rem;
+}
+
+.codex-editor .ce-settings__button,
+.codex-editor .ce-inline-tool {
+    border-radius: .5em;
+}
